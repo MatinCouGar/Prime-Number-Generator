@@ -1,4 +1,4 @@
-def avval(a):
+def primgen(a):
     if a == 2:
         return True
     elif a == 1:
@@ -17,7 +17,7 @@ def avval(a):
 addad = int(input("Generate up to what number? "))
 counter = 0
 while counter < addad:
-    if avval(counter) == True:
+    if primgen(counter) == True:
         print(counter)
         counter = counter + 1
     else:
