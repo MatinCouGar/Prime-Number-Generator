@@ -1,4 +1,4 @@
-def primgen(a):
+def primegen(a):
     if a == 2:
         return True
     elif a == 1:
@@ -14,10 +14,10 @@ def primgen(a):
             else:
                 if runner == 2:
                     return True
-addad = int(input("Generate up to what number? "))
+number = int(input("Generate up to what number? "))
 counter = 0
-while counter < addad:
-    if primgen(counter) == True:
+while counter < number:
+    if primegen(counter) == True:
         print(counter)
         counter = counter + 1
     else:
